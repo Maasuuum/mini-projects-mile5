@@ -12,3 +12,6 @@ document.querySelector("#submit-btn").addEventListener("click", function(){
     container.appendChild(p);
     document.getElementById("text-area").value = "";
 });
+document.getElementById("text-area").addEventListener("keyup", function (event){
+    console.log(event.target);
+})
